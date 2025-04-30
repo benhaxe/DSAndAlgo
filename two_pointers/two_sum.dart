@@ -24,7 +24,9 @@
   - The tests are generated such that there is exactly one solution
 */
 
-//TWO SUM, Two Pointer
+///[Two Pointer]
+// Time: O(n)
+// Space: O(1)
 List<int> twoSum(List<int> nums, int target) {
   int left = 0;
   int right = nums.length - 1;
@@ -46,9 +48,9 @@ List<int> twoSum(List<int> nums, int target) {
   return [left + 1, right + 1];
 }
 
+///[HASHMAP]
 // Time: O(n)
-// Space: O(1)
-
+// Space: O(n) -- Disadvantage.
 List<int>? twoSumHasMap(List<int> nums, int target) {
   Map<int, int> map = {};
 
@@ -66,6 +68,3 @@ List<int>? twoSumHasMap(List<int> nums, int target) {
   }
   return null;
 }
-
-// Time: O(n)
-// Space: O(n) -- Disadvantage.
