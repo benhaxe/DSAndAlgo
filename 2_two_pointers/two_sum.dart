@@ -55,7 +55,7 @@ List<int>? twoSumHasMap(List<int> nums, int target) {
   Map<int, int> map = {};
 
   for (int i = 0; i < nums.length; i++) {
-    //Need to know what other number we need to reach teh target.
+    //Need to know what other number we need to reach the target.
     int complement = target - nums[i];
 
     //Just the way the hash map works, if we have seen the complement number before
