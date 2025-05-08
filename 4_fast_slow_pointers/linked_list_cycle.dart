@@ -1,4 +1,4 @@
-import '~list_node.dart';
+import '../~list_node.dart';
 
 /* 
   *Leetcode #141 [Linked List Cycle] Easy

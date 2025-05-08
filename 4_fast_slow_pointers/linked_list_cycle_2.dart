@@ -18,7 +18,7 @@
   Output: no cycle
   Explanation: There is no cycle in the linked list.
 */
-import '~list_node.dart';
+import '../~list_node.dart';
 
 ///[Floyd's Cycle-Finding Agorithm]
 ListNode? detectCycle(ListNode? head) {

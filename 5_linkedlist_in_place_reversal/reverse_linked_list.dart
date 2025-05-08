@@ -1,4 +1,4 @@
-import '../4_fast_slow_pointers/~list_node.dart';
+import '../~list_node.dart';
 
 /** 
  * Reversing Linked list can be done in 2 ways

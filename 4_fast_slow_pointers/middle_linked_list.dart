@@ -17,7 +17,7 @@
 */
 
 //Middle Linked List.
-import '~list_node.dart';
+import '../~list_node.dart';
 
 ListNode middleLinkedList(ListNode? head) {
   ListNode? slow = head;
